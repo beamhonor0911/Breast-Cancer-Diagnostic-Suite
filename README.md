@@ -93,3 +93,17 @@ Evaluated using **Stratified 5-Fold Cross-Validation** on an 80/20 train-test pa
        │ • /health (GET)        │                    │ • Triage Risk Alerts   │
        │ • Auto OpenAPI Docs    │                    │ • Case Presets         │
        └────────────────────────┘                    └────────────────────────┘
+
+       ## 📈 Clinical Triage Protocol
+
+| Probability Score | Triage Level | Priority | Action Protocol |
+| :---: | :---: | :---: | :--- |
+| **≥ 65.0%** | 🚨 **Critical / Malignant** | **High** | Immediate secondary biopsy & urgent oncology referral. |
+| **35.0% – 64.9%** | ⚠️ **Borderline / Uncertain** | **Medium** | Diagnostic uncertainty zone: Secondary review by human pathologist required. |
+| **< 35.0%** | ✅ **Low Risk / Benign** | **Standard** | Consistent with benign cellular morphometry; standard annual screening. |
+
+## 👨‍💻 Author & Maintainer
+
+* **Author:** [@beamhonor0911](https://github.com/beamhonor0911)
+* **GitHub Repository:** [Breast-Cancer-Diagnostic-Suite](https://github.com/beamhonor0911/Breast-Cancer-Diagnostic-Suite)
+* **License:** [MIT License](LICENSE)
