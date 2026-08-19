@@ -61,9 +61,9 @@ Evaluated using **Stratified 5-Fold Cross-Validation** on an 80/20 train-test pa
                        └───────────────────────┘
 
 
-                       🏗️ System Architecture
+  ##🏗️ System Architecture
                     
-                    ┌────────────────────────┐
+                               ┌────────────────────────┐
                                │   breast-cancer.csv    │
                                │  (30 Cell Biomarkers)  │
                                └───────────┬────────────┘
