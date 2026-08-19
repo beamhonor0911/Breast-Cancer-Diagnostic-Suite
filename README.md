@@ -94,7 +94,7 @@ Evaluated using **Stratified 5-Fold Cross-Validation** on an 80/20 train-test pa
        │ • Auto OpenAPI Docs    │                    │ • Case Presets         │
        └────────────────────────┘                    └────────────────────────┘
 
-       ## 📈 Clinical Triage Protocol
+ ## 📈 Clinical Triage Protocol
 
 | Probability Score | Triage Level | Priority | Action Protocol |
 | :---: | :---: | :---: | :--- |
